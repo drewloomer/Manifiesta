@@ -1,0 +1,30 @@
+{
+  "name": "manifiesta",
+  "version": "0.0.1",
+  "description": "Generate a JSON manifest of files and their sizes.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+  ],
+  "dependencies": {
+    "chalk": "^0.4.0",
+    "gulp-util": "^2.2.0",
+    "object-assign": "^0.3.0",
+    "through": "^2.3.4"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "author": {
+    "name": "Drew Loomer",
+    "email": "drew@drewloomer.com",
+    "url": "http://drewloomer.com"
+  },
+  "scripts": {
+
+  },
+  "license": "MIT"
+}
