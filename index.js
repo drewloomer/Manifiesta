@@ -65,7 +65,7 @@ module.exports = function (fileName, options) {
 				else {
 					currentManifestNode[piece] = {
 						size: file.stat.size,
-						mime.lookup(filePath)
+						type: mime.lookup(filePath)
 					};
 				}
 			}
