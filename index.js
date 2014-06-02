@@ -4,6 +4,7 @@ var path = require('path'),
 	through = require('through'),
 	assign = require('object-assign'),
 	chalk = require('chalk'),
+	mime = require('mime'),
 	Buffer = require('buffer').Buffer;
 
 
@@ -62,9 +63,9 @@ module.exports = function (fileName, options) {
 					currentManifestNode = currentManifestNode[piece];
 				}
 				else {
-					// console.log(file.stat);
 					currentManifestNode[piece] = {
-						size: file.stat.size
+						size: file.stat.size,
+						mime.lookup(filePath)
 					};
 				}
 			}
