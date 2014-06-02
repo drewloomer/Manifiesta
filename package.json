@@ -1,6 +1,6 @@
 {
   "name": "manifiesta",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate a JSON manifest of files and their sizes.",
   "main": "index.js",
   "repository": {
